@@ -9,9 +9,15 @@
   padding: 0 1rem;
 }
 
+.title a{
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
 .navContainer {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -37,17 +43,16 @@
   cursor: pointer;
 }
 
-.loginBtn:hover,
-.loginBtn:active {
-  color: #fff;
-  background-color: #007bff;
-}
-
-.navBtn {
-  background-color: transparent;
+.navLink {
   font-weight: 500;
   font-size: 1.2rem;
-  border: none;
+  text-decoration: none;
   color: #000;
   cursor: pointer;
+}
+
+.navLink:hover,
+.navLink:active,
+.navLink.active {
+  border-bottom: 2px solid #000;
 }

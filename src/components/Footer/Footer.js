@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import classes from './Footer.module.css';
 
 const Footer = () => {
@@ -7,10 +8,10 @@ const Footer = () => {
       <div className={classes.container}>
         <ul className={classes.navbar}>
           <li>
-            <a href='/home'>Home</a>
+            <Link to='/home'>Home</Link>
           </li>
           <li>
-            <a href='/test'>Test</a>
+            <Link to='/overview'>All Reviews</Link>
           </li>
           <li>
             <a href='https://github.com/bpetermann/shopping-cart'>About</a>

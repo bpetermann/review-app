@@ -1,12 +1,10 @@
 .container {
-  /* grid-area: searchbar; */
   height: 80vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   background-size: cover;
-  /* background-position: top; */
   background-position: left 10% top 50%;
 }
 
@@ -26,6 +24,17 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  border-radius: 0.8rem;
+  background-color: #fff;
+}
+
+.glassImage {
+  padding-left: 1rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  align-self: center;
+  filter: invert(46%) sepia(8%) saturate(8%) hue-rotate(24deg) brightness(97%)
+    contrast(91%);
 }
 
 .search {

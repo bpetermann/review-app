@@ -1,21 +1,35 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
-// import classes from './App.module.css';
-import Home from './components/Home';
-import Header from './components/Header';
-import Test from './components/test';
-import Footer from './components/Footer';
+import { Route, Switch, Redirect } from 'react-router-dom';
+import Home from './components/pages/Home';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Locations from './components/pages/Locations';
+import ItemDetail from './components/Locations/ItemDetail';
+import AddLocation from './components/Locations/AddLocation';
+
+import DUMMY_LOCATIONS from './database/locations';
 
 function App() {
   return (
     <React.Fragment>
       <Header />
-      <Route path='/home'>
-        <Home />
-      </Route>
-      <Route path='/test'>
-        <Test />
-      </Route>
+      <Switch>
+        <Route path='/' exact>
+          <Redirect to='/home' />
+        </Route>
+        <Route path='/home'>
+          <Home />
+        </Route>
+        <Route path='/add'>
+          <AddLocation />
+        </Route>
+        <Route path='/overview'>
+          <Locations locations={DUMMY_LOCATIONS} />
+        </Route>
+        <Route path='/titles/:itemId'>
+          <ItemDetail />
+        </Route>
+      </Switch>
       <Footer />
     </React.Fragment>
   );

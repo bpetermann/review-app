@@ -1,6 +1,5 @@
 import React from 'react';
-// import classes from './Home.module.css';
-import Searchbar from './Searchbar';
+import Searchbar from '../Searchbar/Searchbar';
 
 const Home = (props) => {
   return (
