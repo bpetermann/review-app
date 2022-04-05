@@ -1,0 +1,53 @@
+.container {
+  grid-area: header;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #d0d1d3;
+  padding: 0 1rem;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.loginBtn {
+  background-color: transparent;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  border: 2px solid #007bff;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.loginBtn:hover,
+.loginBtn:active {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.navBtn {
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 1.2rem;
+  border: none;
+  color: #000;
+  cursor: pointer;
+}
