@@ -2,7 +2,18 @@ import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import classes from './Header.module.css';
 
+import { auth, provider } from '../firebase/firebase-config';
+import { signInWithPopup } from 'firebase/auth';
+
 const Header = (props) => {
+  const { setIsLoggedIn } = props;
+  
+  const signIn = () => {
+    signInWithPopup(auth, provider).then((result) => {
+      setIsLoggedIn(true);
+    });
+  };
+
   return (
     <div className={classes.container}>
       <div className={classes.navContainer}>
@@ -25,7 +36,9 @@ const Header = (props) => {
         </NavLink>
       </div>
       <div className={classes.btnContainer}>
-        <button className={classes.loginBtn}>Login </button>
+        <button className={classes.loginBtn} onClick={signIn}>
+          Login
+        </button>
       </div>
     </div>
   );

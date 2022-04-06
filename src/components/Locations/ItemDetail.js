@@ -13,6 +13,8 @@ const ItemDetail = () => {
 
   const { name, id, description } = location[0];
 
+
+
   console.log(name);
   return (
     <div className={classes.container}>

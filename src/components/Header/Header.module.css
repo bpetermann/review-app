@@ -9,7 +9,7 @@
   padding: 0 1rem;
 }
 
-.title a{
+.title a {
   text-decoration: none;
   color: #000;
   cursor: pointer;
@@ -41,6 +41,12 @@
   border: 2px solid #007bff;
   color: #007bff;
   cursor: pointer;
+}
+
+.loginBtn:hover,
+.loginBtn:active {
+  color: #fff;
+  background-color: #007bff;
 }
 
 .navLink {

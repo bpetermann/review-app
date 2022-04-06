@@ -8,7 +8,7 @@ const LocationItem = (props) => {
       {props.locations.map((item) => {
         return (
           <div className={classes.container} key={item.id}>
-            <h3>{item.name}</h3>
+            <h3>{item.id}</h3>
             <img
               src={require('../../images/' + item.name + '.png')}
               alt={item.name}

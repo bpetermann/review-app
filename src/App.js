@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Header from './components/Header/Header';
@@ -10,9 +10,13 @@ import AddLocation from './components/Locations/AddLocation';
 import DUMMY_LOCATIONS from './database/locations';
 
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  console.log(isLoggedIn);
+
   return (
     <React.Fragment>
-      <Header />
+      <Header setIsLoggedIn={setIsLoggedIn} />
       <Switch>
         <Route path='/' exact>
           <Redirect to='/home' />
