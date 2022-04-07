@@ -4,7 +4,7 @@ import Home from './components/pages/Home';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Locations from './components/pages/Locations';
-import ItemDetail from './components/Locations/ItemDetail';
+import LocationDetail from './components/Locations/LocationDetail';
 
 import { auth, provider } from './firebase/firebase-config';
 import { signInWithPopup, signOut } from 'firebase/auth';
@@ -44,7 +44,7 @@ function App() {
           <Locations locations={DUMMY_LOCATIONS} />
         </Route>
         <Route path='/titles/:itemId'>
-          <ItemDetail isLoggedIn={isLoggedIn}/>
+          <LocationDetail isLoggedIn={isLoggedIn}/>
         </Route>
       </Switch>
       <Footer />

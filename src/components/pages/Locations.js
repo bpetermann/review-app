@@ -1,13 +1,13 @@
 import React from 'react';
 
 import classes from './Locations.module.css';
-import LocationItem from '../Locations/LocationItem';
+import LocationOverview from '../Locations/LocationOverview';
 
 const Locations = (props) => {
   return (
     <React.Fragment>
       <div className={classes.container}>
-        <LocationItem locations={props.locations}/>
+        <LocationOverview locations={props.locations}/>
       </div>
     </React.Fragment>
   );
