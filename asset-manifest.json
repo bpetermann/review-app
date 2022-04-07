@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/review-app/static/css/main.b25f61ad.css",
-    "main.js": "/review-app/static/js/main.8df0841b.js",
+    "main.js": "/review-app/static/js/main.9acf53b6.js",
     "static/media/background.png": "/review-app/static/media/background.a0f4d5b334c74b4444b6.png",
     "static/media/Location.png": "/review-app/static/media/Location.aa69eab65b70ad8de28e.png",
     "index.html": "/review-app/index.html",
     "main.b25f61ad.css.map": "/review-app/static/css/main.b25f61ad.css.map",
-    "main.8df0841b.js.map": "/review-app/static/js/main.8df0841b.js.map"
+    "main.9acf53b6.js.map": "/review-app/static/js/main.9acf53b6.js.map"
   },
   "entrypoints": [
     "static/css/main.b25f61ad.css",
-    "static/js/main.8df0841b.js"
+    "static/js/main.9acf53b6.js"
   ]
 }
