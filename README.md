@@ -8,6 +8,7 @@
 - First time working with Firebase
 - In order to avoid to many database queries I kept the logic for rendering the locations inside the folder and only outsourced the comments to firebase
 - First time working with React Router v5
+- [View Live](https://bpetermann.github.io/review-app/)
 
 ## Getting started
 
