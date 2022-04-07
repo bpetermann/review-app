@@ -4,14 +4,15 @@
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-evenly;
+
 }
 
 @media (min-width: 40rem) {
   .container {
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
   }
 }

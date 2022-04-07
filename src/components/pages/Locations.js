@@ -7,7 +7,7 @@ const Locations = (props) => {
   return (
     <React.Fragment>
       <div className={classes.container}>
-        <LocationItem locations={props.locations} />
+        <LocationItem locations={props.locations}/>
       </div>
     </React.Fragment>
   );
