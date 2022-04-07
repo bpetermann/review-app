@@ -15,6 +15,10 @@
   align-self: flex-start;
 }
 
+.container p {
+  color: #878787;
+}
+
 .image {
   width: 100%;
 }
@@ -53,7 +57,7 @@
   font-weight: 500;
   font-size: 0.9rem;
   padding: 0 0.5rem;
-  background-color: #e7e9eb;
+  background-color: #ffc107;
   margin-bottom: 0;
   text-align: center;
 }
