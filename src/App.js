@@ -37,6 +37,9 @@ function App() {
         <Route path='/' exact>
           <Redirect to='/home' />
         </Route>
+        <Route path='/review-app/' exact>
+          <Redirect to='/home' />
+        </Route>
         <Route path='/home'>
           <Home />
         </Route>
