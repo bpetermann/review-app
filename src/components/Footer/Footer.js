@@ -14,7 +14,7 @@ const Footer = () => {
             <Link to='/overview'>All Reviews</Link>
           </li>
           <li>
-            <a href='https://github.com/bpetermann/shopping-cart'>About</a>
+            <a href='https://github.com/bpetermann/'>About</a>
           </li>
         </ul>
       </div>

@@ -32,12 +32,12 @@ const AddComment = (props) => {
           onChange={descriptionChangeHandler}
           value={enteredComment}
           id='description'
-          placeholder='Comment'
+          placeholder='Your comment here'
           type='text'
           required
         />
         <button className='add' type='submit'>
-          Add
+          Comment
         </button>
       </form>
     </React.Fragment>

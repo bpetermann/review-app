@@ -37,7 +37,7 @@ const Searchbar = (props) => {
             onChange={searchTermChangeHandler}
             className={classes.search}
             type='text'
-            placeholder='Search'
+            placeholder='Enter Location'
             value={searchTerm}
           />
           <Link to={location} className={classes.searchBtn}>

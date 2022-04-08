@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import Home from './components/pages/Home';
-import Header from './components/Header/Header';
+import Menue from './components/Header/Menue';
 import Footer from './components/Footer/Footer';
 import Locations from './components/pages/Locations';
 import LocationDetail from './components/Locations/LocationDetail';
@@ -28,7 +28,7 @@ function App() {
 
   return (
     <React.Fragment>
-      <Header
+      <Menue
         userLogin={signInHandler}
         userLogout={logoutHandler}
         isLoggedIn={isLoggedIn}

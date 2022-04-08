@@ -11,6 +11,7 @@
 .image {
   width: 75%;
   max-width: 40rem;
+  border-radius: 0.25rem;
 }
 
 .description {
@@ -27,7 +28,7 @@
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
-  border: 2px solid #dc3545;
-  color: #dc3545;
+  border: 2px solid #a62d2d;
+  color: #a62d2d;
   margin-bottom: 0;
 }

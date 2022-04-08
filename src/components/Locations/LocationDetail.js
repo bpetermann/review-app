@@ -4,6 +4,7 @@ import classes from './LocationDetail.module.css';
 
 import CommentOutput from '../Comments/CommentOutput';
 import AddComment from '../Comments/AddComment';
+import Header from '../Header/Header';
 
 import DUMMY_LOCATIONS from '../../database/locations';
 import { getDocs, collection } from 'firebase/firestore';
@@ -41,7 +42,7 @@ const ItemDetail = (props) => {
 
   return (
     <div className={classes.container}>
-      <h1>{id}</h1>
+      <Header>{id}</Header>
       <img
         src={require('../../images/' + name + '.png')}
         alt={name}

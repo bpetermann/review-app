@@ -6,17 +6,11 @@
   display: flex;
   border-radius: 0.25rem;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
   background-color: #fff;
 }
 
 .container h3 {
   align-self: flex-start;
-}
-
-.container p {
-  color: #878787;
 }
 
 .image {
@@ -34,15 +28,15 @@
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
-  border: 2px solid #000;
-  color: #000;
+  color: #295073;
+  border: 0.18rem solid #295073;
   cursor: pointer;
   text-decoration: none;
 }
 
 .readMoreBtn:hover {
   color: #fff;
-  background-color: #000;
+  background-color: #295073;
 }
 
 .tagContainer {
@@ -56,7 +50,7 @@
   line-height: 1.5;
   font-weight: 500;
   font-size: 0.9rem;
-  padding: 0 0.5rem;
+  padding: 0.1rem 0.5rem;
   background-color: #ffc107;
   margin-bottom: 0;
   text-align: center;
