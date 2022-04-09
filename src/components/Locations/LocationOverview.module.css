@@ -1,12 +1,12 @@
 .container {
   padding: 1rem;
-  margin: 2rem;
-  width: 14rem;
+  margin: 1rem;
+  width: 18rem;
   height: 28rem;
   display: flex;
   border-radius: 0.25rem;
   flex-direction: column;
-  background-color: #fff;
+  background-color: #f7f7f5;
 }
 
 .container h3 {
@@ -15,10 +15,10 @@
 
 .image {
   width: 100%;
+  border-radius: 0.25rem;
 }
 
 .readMoreBtn {
-  align-self: flex-start;
   margin-top: auto;
   background-color: transparent;
   text-align: center;
@@ -28,15 +28,14 @@
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
-  color: #295073;
-  border: 0.18rem solid #295073;
+  color: #fff;
+  background-color: #295073;
   cursor: pointer;
   text-decoration: none;
 }
 
 .readMoreBtn:hover {
-  color: #fff;
-  background-color: #295073;
+  opacity: 0.8;
 }
 
 .tagContainer {

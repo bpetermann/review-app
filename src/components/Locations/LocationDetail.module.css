@@ -9,8 +9,7 @@
 }
 
 .image {
-  width: 75%;
-  max-width: 40rem;
+  width: 90%;
   border-radius: 0.25rem;
 }
 
@@ -31,4 +30,12 @@
   border: 2px solid #a62d2d;
   color: #a62d2d;
   margin-bottom: 0;
+}
+
+@media (min-width: 40rem) {
+  .image {
+    width: 75%;
+    max-width: 40rem;
+    border-radius: 0.25rem;
+  }
 }
