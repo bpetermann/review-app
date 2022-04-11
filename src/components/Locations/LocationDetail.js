@@ -49,7 +49,10 @@ const ItemDetail = (props) => {
         className={classes.image}
       />
 
-      <p className={classes.description}>{description}</p>
+      <div className={classes.description}>
+        <h3>Review:</h3>
+        <p>{description}</p>
+      </div>
       {props.isLoggedIn ? (
         <AddComment id={itemId} newComment={newCommentHandler} />
       ) : (

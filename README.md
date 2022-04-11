@@ -13,7 +13,7 @@
 ## Getting started
 
 ```
-git clone https://github.com/bpetermann/shopping-cart.git
+git clone https://github.com/bpetermann/review-app.git
 cd cv-application
 npm install
 npm start

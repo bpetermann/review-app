@@ -8,7 +8,7 @@ const CommentOutput = (props) => {
         {props.comments.map((item) => {
           return (
             <li className={classes.CommentLiItem} key={item.id}>
-              <h4 className={classes.author}>Author: {item.author.name}</h4>
+              <h4 className={classes.author}>{item.author.name}</h4>
               <p>{item.comment}</p>
             </li>
           );
