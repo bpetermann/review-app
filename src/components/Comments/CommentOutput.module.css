@@ -1,5 +1,5 @@
 .CommentList {
-  width: 75%;
+  width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -21,4 +21,10 @@
 
 .author {
   padding-right: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .CommentList {
+    max-width: 40rem;
+  }
 }
